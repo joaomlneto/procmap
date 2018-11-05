@@ -77,7 +77,7 @@ bool MemorySegment::isShared() {
 }
 
 bool MemorySegment::isPrivate() {
-  return (_permissions && 16U) != 0;
+  return (_permissions & 16U) != 0;
 }
 
 void MemorySegment::print() {
