@@ -1,4 +1,4 @@
-https://travis-ci.com/joaomlneto/procmap.svg?branch=master
+[![Build Status](https://travis-ci.com/joaomlneto/procmap.svg?branch=master)](https://travis-ci.com/joaomlneto/procmap)
 
 # procmap
 A simple C++ wrapper around `/proc/self/maps`
