@@ -1,2 +1,4 @@
 # process-memory-map
-C++ wrapper around /proc/self/maps
+A simple C++ wrapper around `/proc/self/maps`
+
+This tool makes it simpler to help visualize the memory map of your process.
