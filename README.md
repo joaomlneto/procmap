@@ -1,3 +1,5 @@
+https://travis-ci.com/joaomlneto/procmap.svg?branch=master
+
 # procmap
 A simple C++ wrapper around `/proc/self/maps`
 
