@@ -95,14 +95,6 @@ void MemorySegment::print() {
            (isReadable() ?   'R' : '-'),
            _name.c_str());
   L->printHorizontalRule(info, (isWriteable() ? 2 : 1));
-  /*
-  if (isHeap())
-    L->printHorizontalRule(">> FOUND THE HEAP!", 3);
-  if (isStack())
-    L->printHorizontalRule(">> FOUND THE STACK!", 4);
-  if (isAnonymous())
-    L->printHorizontalRule(">> ANONYMOUS!", 5);
-  */
 }
 
 bool MemorySegment::isBindable() {
